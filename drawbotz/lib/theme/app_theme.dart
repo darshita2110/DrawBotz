@@ -40,7 +40,7 @@ class AppColors {
 
 class AppTextStyles {
   static TextStyle display(double size, Color color) =>
-      GoogleFonts.fredokaOne(fontSize: size, color: color);
+      GoogleFonts.fredoka(fontSize: size, fontWeight: FontWeight.w700, color: color);
   static TextStyle bold(double size, Color color) =>
       GoogleFonts.nunito(fontSize: size, fontWeight: FontWeight.w800, color: color);
   static TextStyle semiBold(double size, Color color) =>
